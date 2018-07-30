@@ -6,9 +6,9 @@ MIDI to OSC bridge for CanAttacker 2018 (MFT2018 Version).
 
 # Usage
 
-> $ cd midi2osc
-> $ npm i
-> $ node ./midi2osc.js
+> $ cd midi2osc    
+> $ npm i    
+> $ node ./midi2osc.js    
 
 # Licence
 
