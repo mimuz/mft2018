@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>缶たたき機mini</title>
+<style>
+@font-face{
+  font-family:GloriaHallelujah;
+  src:url(./font/GloriaHallelujah.ttf) format("truetype");
+}
+
+*{
+    padding:0px;
+    margin:0px;
+}
+#status{
+	font-family:GloriaHallelujah;
+	padding:0 10px;
+	position:fixed;
+	top:15px;
+	right:15px;
+	font-size:18px;
+	background-color:black;
+	color:white;
+}
+#talogo{
+	position:fixed;
+	top:10px;
+	left:10px;
+}
+</style>
+</head>
+<body>
+<div id="status">Connecting...</div>
+<div id="talogo"><img src="./img/talogo-small.png" width="40%"></div>
+<div id="pixiview"></div>
+<script src="pixi.min.js"></script>
+<script src="poorws.js"></script>
+<script src="poormidi.js"></script>
+<script src="jquery-2.0.3.min.js"></script>
+<script src="app3.js"></script>
+</body>
+</html>
